@@ -1,5 +1,3 @@
-const helper = new Helper();
-
 class Helper {
     playPauseAndUpdate (song) {
       player.playPause(song);
@@ -7,3 +5,4 @@ class Helper {
       $('#time-control .total-time').text(duration);
     }
   }
+  const helper = new Helper();

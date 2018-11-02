@@ -40,6 +40,6 @@
     const duration = player.getDuration();
     const percent = (currentTime / duration) * 100;
     $('#time-control .current-time').text( currentTime );
-    $('#time-control imput').val(percent);
+    $('#time-control input').val(percent);
   }, 1000);
 }
